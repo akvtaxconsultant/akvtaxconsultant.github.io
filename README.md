@@ -1,6 +1,6 @@
 # AKV Tax Consultant — Website
 
-A free, static website for AKV Tax Consultant (Delhi NCR), built with plain HTML/CSS/JS and hosted free on GitHub Pages.
+A free, static website for AKV Tax Consultant (serving Delhi, Haryana, Uttar Pradesh, Rajasthan, Gujarat and Madhya Pradesh), built with plain HTML/CSS/JS and hosted free on GitHub Pages.
 
 ## Structure
 
@@ -77,6 +77,6 @@ If you later want a custom domain (e.g. `akvtaxconsultant.com`) instead of the f
 
 ## SEO notes
 
-- Each service page has a unique title, meta description, and FAQ schema (JSON-LD) targeting Delhi NCR local search.
+- Each service page has a unique title, meta description, and FAQ schema (JSON-LD) targeting Delhi, Haryana, Uttar Pradesh, Rajasthan, Gujarat and Madhya Pradesh local/regional search.
 - Submit `sitemap.xml` to [Google Search Console](https://search.google.com/search-console) after the site goes live, and verify ownership, to get indexed faster.
 - Keep NAP (Name, Address, Phone) consistent across this site, Google Business Profile, and Instagram.
