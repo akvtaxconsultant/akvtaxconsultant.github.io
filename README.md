@@ -1,17 +1,17 @@
-# AKV Tax Consultant — Website
+# AKV Tax Consultant Website
 
 A free, static website for AKV Tax Consultant (serving Delhi, Haryana, Uttar Pradesh, Rajasthan, Gujarat and Madhya Pradesh), built with plain HTML/CSS/JS and hosted free on GitHub Pages.
 
 ## Structure
 
-- `index.html` — Home page
-- `services.html` — Services overview
-- `services/*.html` — One dedicated page per service (Income Tax, GST, TDS, Accounting, Business Advisory) for better search ranking
+- `index.html`: Home page
+- `services.html`: Services overview
+- `services/*.html`: One dedicated page per service (Income Tax, GST, TDS, Accounting, Business Advisory) for better search ranking
 - `about.html`, `contact.html`
 - `css/style.css`, `js/main.js`
-- `images/favicon.svg` — placeholder logo mark (replace with the real AKV logo — see below)
-- `robots.txt`, `sitemap.xml` — for search engine crawling
-- `404.html` — custom not-found page
+- `images/favicon.svg`: placeholder logo mark (replace with the real AKV logo, see below)
+- `robots.txt`, `sitemap.xml`: for search engine crawling
+- `404.html`: custom not-found page
 
 ## Replacing the logo
 
@@ -38,7 +38,7 @@ Right now the header/favicon use a text-based "AKV" placeholder. To use the real
 
 ## Editing content
 
-Every page is plain HTML — open any `.html` file in a text editor and edit the text directly. There's no build step.
+Every page is plain HTML: open any `.html` file in a text editor and edit the text directly. There's no build step.
 
 ## Local preview
 
@@ -50,7 +50,7 @@ python -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
-## Deployment (GitHub Pages — free)
+## Deployment (GitHub Pages, free)
 
 This repo is set up to deploy automatically to GitHub Pages from the `main` branch. Once pushed, the site is live at:
 

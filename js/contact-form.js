@@ -1,4 +1,4 @@
-// AKV Tax Consultant — contact form submission via Google Apps Script Web App
+// AKV Tax Consultant: contact form submission via Google Apps Script Web App
 (function () {
   var SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwpDbT7t42lThpgm7i9PRLBcTYYAOOD0NPx7tV7yn2fufUOoEQY5UJs4Tbjmu69XMsR/exec";
 

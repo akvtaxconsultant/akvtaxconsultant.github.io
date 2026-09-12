@@ -1,4 +1,4 @@
-// AKV Tax Consultant — small site behaviors (no external dependencies)
+// AKV Tax Consultant: small site behaviors (no external dependencies)
 
 document.addEventListener("DOMContentLoaded", function () {
   var yearEl = document.getElementById("year");
