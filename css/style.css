@@ -64,6 +64,11 @@ a { color: inherit; text-decoration: none; }
   letter-spacing: 0.3px;
 }
 
+.brand-logo {
+  height: 46px;
+  width: auto;
+}
+
 .brand .brand-mark {
   display: inline-flex;
   align-items: center;
