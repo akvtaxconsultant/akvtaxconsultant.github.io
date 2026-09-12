@@ -87,20 +87,24 @@
       <div class="section-head" style="text-align:left; margin-bottom:22px;">
         <div class="eyebrow">Send a Message</div>
         <h2 style="margin:8px 0;">Tell Us What You Need</h2>
-        <p>Fill this in and it'll open in your email app, ready to send.</p>
+        <p>Fill this in and we'll get back to you shortly.</p>
       </div>
-      <form class="contact-form" action="mailto:akv.taxconsultant08@gmail.com" method="post" enctype="text/plain">
+      <form class="contact-form" action="https://formspree.io/f/meaqwjgd" method="POST">
         <div>
           <label for="name">Full Name</label>
-          <input type="text" id="name" name="Name" required>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
         </div>
         <div>
           <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" name="Phone" required>
+          <input type="tel" id="phone" name="phone" required>
         </div>
         <div>
           <label for="service">Service Needed</label>
-          <select id="service" name="Service">
+          <select id="service" name="service">
             <option>Income Tax Return Filing</option>
             <option>GST Services</option>
             <option>TDS Compliance</option>
@@ -111,8 +115,10 @@
         </div>
         <div>
           <label for="message">Message</label>
-          <textarea id="message" name="Message" placeholder="Briefly describe what you need help with..." required></textarea>
+          <textarea id="message" name="message" placeholder="Briefly describe what you need help with..." required></textarea>
         </div>
+        <input type="hidden" name="_subject" value="New enquiry from AKV Tax Consultant website">
+        <input type="hidden" name="_next" value="https://akvtaxconsultant.github.io/thank-you.html">
         <button type="submit" class="btn btn-primary">Send Message</button>
       </form>
     </div>
